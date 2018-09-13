@@ -1,4 +1,4 @@
-# Create a new VM based on the baesd image you have created
+# Create a new VM based on the based image you have created
 
 ```
 cd C:\My VMs\
