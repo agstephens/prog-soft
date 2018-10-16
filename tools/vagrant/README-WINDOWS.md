@@ -268,3 +268,23 @@ vagrant halt
 vagrant destroy -f
 vagrant up
 ```
+
+## Limiting the disk size on a VM
+
+In the `Vagrantfile`:
+
+```
+    config.disksize.size = "20GB"
+```
+
+And install the plugin:
+
+```
+$ vagrant plugin install vagrant-disksize
+```
+
+Then reload an provision:
+
+```
+vagrant reload --provision
+```
