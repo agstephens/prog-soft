@@ -1,4 +1,4 @@
-# Basic over of Docker
+# Basic overview of Docker
 
 ## Install Docker or Docker Desktop
 
