@@ -65,10 +65,8 @@ I don't think you can (stop it in Powershell)!
 
 But **you can stop it using the Docker Desktop Dashboard** - by clicking the stop button in the "Containers/Apps" window.
 
-## Or, run with interactive access to login to image
+## Or, run with interactive access (i.e. bash) to login to image
 
 ```
-docker run -it example/flask-app:latest
+docker run -it example/flask-app:latest bash
 ```
-
-NOTE: this doesn't seem to work in Windows Powershell.
