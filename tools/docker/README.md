@@ -70,3 +70,46 @@ But **you can stop it using the Docker Desktop Dashboard** - by clicking the sto
 ```
 docker run -it example/flask-app:latest bash
 ```
+
+## How to add a new port binding to a local Docker container that already exists (by making a copy)
+You have already run and created a docker image, then you have exited it. List it first:
+
+```
+$ docker container ls --all
+CONTAINER ID   IMAGE    COMMAND     CREATED      STATUS  PORTS       NAMES
+14022c833b0a   con/ma3  "/bin/bash" 17 hours ago Exited              optimistic_ride
+```
+
+So, now I want to restart it and attach to it. Strangely, you need a new image, but you can do a rename like this.  Before doing `docker run` you can remove the original container and then assign the container the same name again:
+
+```
+$ docker stop 14022c833b0a
+$ docker commit 14022c833b0a image01
+$ docker rm 14022c833b0a
+$ docker run -d --port=8181:8181 --name 14022c833b0a image01 /bin/bash
+```
+
+## How to restart a local container and connect interactively to it
+```
+docker start cranky_pascal
+
+# Now use exec to login
+docker exec -it cranky_pascal /bin/bash
+```
+
+## Deleting images and containers
+List them with:
+```
+docker image ls
+
+docker container ls --all
+```
+
+And delete as necessary, e.g.:
+```
+docker image rm --force 9efebc1fc367 fc4fde60d99e 77d64e4f353b
+
+docker container rm --force 14022c833b0a brave_allen hardcore_curran jolly_rubin
+```
+
+

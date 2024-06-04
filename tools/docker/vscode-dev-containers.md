@@ -6,5 +6,5 @@
 
 ## IMPORTANT
 
-- **Run Docker Desktop as Adminstrator!**
+- **Run Docker Desktop as Administrator!**
 

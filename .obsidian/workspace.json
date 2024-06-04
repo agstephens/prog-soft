@@ -8,11 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "15fd9a7511d3fc06",
+            "id": "2c8d5b9a73e4f6e1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
             }
           },
           {
@@ -21,14 +28,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "tools/docker/Docker Hub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f44fb6bcca2b21e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cloud/coiled.io/coiled.io - getting started.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Untitled.canvas"
               }
             }
           }
@@ -142,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,8 +172,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c60ea0596eaa1d8",
+  "active": "2c8d5b9a73e4f6e1",
   "lastOpenFiles": [
+    "windows/Windows PowerToys.md",
+    "Untitled.canvas",
+    "Pasted image 20240604064048.png",
+    "Pasted image 20240604064026.png",
+    "Pasted image 20240604063932.png",
+    "Pasted image 20240604063742.png",
+    "tools/docker/README.md",
+    "cloud/AWS/AWS Cost Management.md",
+    "tools/docker/Docker Hub.md",
+    "cloud/coiled.io/coiled.io - getting started.md",
+    "cloud/coiled.io",
+    "tools/docker/docker-windows.md",
+    "tools/docker/vscode-dev-containers.md",
+    "desktop-packages/Blender-3D-modelling.md",
+    "Untitled",
+    "desktop-packages",
+    "Untitled.md",
+    "cloud/AWS",
+    "cloud",
+    "README.md",
     "tools/vim/README.md",
     "tools/vagrant/README-WINDOWS-NEW-VM-FROM-TEMPLATE.md",
     "tools/vagrant/README-WINDOWS.md",
@@ -165,23 +202,14 @@
     "tools/mongodb/README.md",
     "tools/kibana/README.md",
     "tools/elasticsearch/README.md",
-    "tools/docker/vscode-dev-containers.md",
-    "tools/docker/README.md",
-    "tools/docker/docker-windows.md",
     "tools/vim",
     "tools/vagrant",
     "tools/postgresql",
     "tools/mongodb",
     "tools/kibana",
-    "tools/elasticsearch",
-    "tools/docker",
-    "tools",
     "python/memory-profiler.md",
-    "python",
     "kubernetes/README.md",
-    "kubernetes",
     "windows/Wiping a disk securely.md",
-    "windows/PowerShell.md",
-    "README.md"
+    "windows/PowerShell.md"
   ]
 }
