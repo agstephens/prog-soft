@@ -4,7 +4,6 @@
 
 - Install VirtualBox - follow instructions
 - Install Vagrant - follow instructions
-
 ## Get a base image: CentOS 6
 
 In the CMD terminal window:

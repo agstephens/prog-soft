@@ -11,14 +11,11 @@
             "id": "2c8d5b9a73e4f6e1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "tools/vagrant/EXPAND-EXISTING-DISK-IN-VAGRANT-VM.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -40,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cloud/coiled.io/coiled.io - getting started.md",
+                "file": "tools/docker/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2760e20316f0a574",
@@ -112,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "tools/vagrant/EXPAND-EXISTING-DISK-IN-VAGRANT-VM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "tools/vagrant/EXPAND-EXISTING-DISK-IN-VAGRANT-VM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "tools/vagrant/EXPAND-EXISTING-DISK-IN-VAGRANT-VM.md"
               }
             }
           }
@@ -160,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,19 +173,27 @@
   },
   "active": "2c8d5b9a73e4f6e1",
   "lastOpenFiles": [
+    "Pasted image 20240718101134.png",
     "windows/Windows PowerToys.md",
+    "tools/docker/Docker Hub.md",
+    "tools/docker/docker-compose.md",
+    "tools/docker/README.md",
+    "windows/VirtualBox/VirtualBox 2024.md",
+    "tools/vagrant/README-WINDOWS-NEW-VM-FROM-TEMPLATE.md",
+    "tools/vagrant/README-WINDOWS.md",
+    "cloud/coiled.io/coiled.io - getting started.md",
+    "windows/VirtualBox",
+    "tools/docker/Docker at the command line.md",
+    "tools/docker/docker-windows.md",
+    "The plan.md",
+    "tools/docker/vscode-dev-containers.md",
     "Untitled.canvas",
     "Pasted image 20240604064048.png",
     "Pasted image 20240604064026.png",
     "Pasted image 20240604063932.png",
     "Pasted image 20240604063742.png",
-    "tools/docker/README.md",
     "cloud/AWS/AWS Cost Management.md",
-    "tools/docker/Docker Hub.md",
-    "cloud/coiled.io/coiled.io - getting started.md",
     "cloud/coiled.io",
-    "tools/docker/docker-windows.md",
-    "tools/docker/vscode-dev-containers.md",
     "desktop-packages/Blender-3D-modelling.md",
     "Untitled",
     "desktop-packages",
@@ -195,8 +202,6 @@
     "cloud",
     "README.md",
     "tools/vim/README.md",
-    "tools/vagrant/README-WINDOWS-NEW-VM-FROM-TEMPLATE.md",
-    "tools/vagrant/README-WINDOWS.md",
     "tools/vagrant/EXPAND-EXISTING-DISK-IN-VAGRANT-VM.md",
     "tools/postgresql/README.md",
     "tools/mongodb/README.md",
@@ -206,10 +211,8 @@
     "tools/vagrant",
     "tools/postgresql",
     "tools/mongodb",
-    "tools/kibana",
     "python/memory-profiler.md",
     "kubernetes/README.md",
-    "windows/Wiping a disk securely.md",
-    "windows/PowerShell.md"
+    "windows/Wiping a disk securely.md"
   ]
 }

@@ -54,7 +54,7 @@ docker build . --build-arg GIT_REPO=https://github.com/cedadev/flask_eg --build-
 ## Run the image (and view in browser)
 
 ```
-docker run -p 8080:5000 example/flask-app:latest
+docker run -p 8080:5000 -e EXAMPLE_ENV_VAR="dummy_value" example/flask-app:latest
 ```
 
 View at: http://localhost:8080/
